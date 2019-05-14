@@ -14,7 +14,6 @@ class Triangle
         :isosceles
       elsif @triangleside_1 != @triangleside_2 && @triangleside_2 != @triangleside_3
         :scalene
-      end
       if @triangleside_1 < 0 || @triangleside_2 < 0 || @triangleside_3 < 0
         raise TriangleError
       end
