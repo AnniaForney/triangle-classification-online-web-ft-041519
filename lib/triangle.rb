@@ -16,6 +16,8 @@ class Triangle
         raise TriangleError
     end
 
+    
+
     def kind
       if @triangleside_1 == @triangleside_2 && @triangleside_2 == @triangleside_3
         :equilateral
