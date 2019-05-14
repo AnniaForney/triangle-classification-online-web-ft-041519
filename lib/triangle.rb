@@ -17,6 +17,7 @@ class Triangle
       end
       if @triangle.size < 0
         raise TriangleError
+      end 
     end
   class TriangleError < StandardError
   end
