@@ -15,7 +15,6 @@ class Triangle
       elsif @triangleside_1 != @triangleside_2 && @triangleside_2 != @triangleside_3
         :scalene
       if @triangleside_1 < 0 || @triangleside_2 < 0 || @triangleside_3 < 0
-      end 
         raise TriangleError
       end
     end
