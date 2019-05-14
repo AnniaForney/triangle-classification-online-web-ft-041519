@@ -21,7 +21,7 @@ class Triangle
         :equilateral
       elsif @triangleside_1 == @triangleside_2 || @triangleside_2 == @triangleside_3 || @triangleside_1 == @triangleside_3
         :isosceles
-      #elsif @triangleside_1 != @triangleside_2 && @triangleside_2 != @triangleside_3
+      elsif @triangleside_1 != @triangleside_2 && @triangleside_2 != @triangleside_3
         :scalene
       end
     end
