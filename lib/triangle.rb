@@ -7,8 +7,11 @@ class Triangle
       @triangleside_3 = triangleside_3
     end
 
-    if @triangleside_1 == 0 || @triangleside_2 == 0 || @triangleside_3 == 0
-      raise TriangleError
+      if @triangleside_1 == 0 || @triangleside_2 == 0 || @triangleside_3 == 0
+        raise TriangleError
+      elsif @triangleside_1 < 0 || @triangleside_2 < 0 || @triangleside_3 == 0 
+
+
     def kind
       if @triangleside_1 == @triangleside_2 && @triangleside_2 == @triangleside_3
         :equilateral
