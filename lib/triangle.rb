@@ -12,7 +12,6 @@ class Triangle
         raise TriangleError
       elsif @triangleside_1 + @triangleside_2 < @triangleside_3 || @triangleside_2 + @triangleside_3 < @triangleside_1 || @triangleside_1 + @triangleside_3 < @triangleside_2
         raise TriangleError 
-      end
     end
 
     def kind
