@@ -18,7 +18,7 @@ class Triangle
         raise TriangleError
       elsif @triangleside_1 == 0 || @triangleside_2 == 0 || @triangleside_3 == 0        
       end
-    end 
+    end
     end
   class TriangleError < StandardError
   end
