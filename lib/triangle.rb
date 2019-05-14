@@ -16,7 +16,7 @@ class Triangle
         :scalene
       end
       if @triangleside_1 < 0 
-      end 
+      end
     end
   class TriangleError < StandardError
   end
