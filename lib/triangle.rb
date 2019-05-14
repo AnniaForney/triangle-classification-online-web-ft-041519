@@ -17,6 +17,7 @@ class Triangle
       if @triangleside_1 < 0 || @triangleside_2 < 0 || @triangleside_3 < 0
         raise TriangleError
       end
+    end 
     end
   class TriangleError < StandardError
   end
