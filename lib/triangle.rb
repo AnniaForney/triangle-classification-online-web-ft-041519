@@ -19,6 +19,7 @@ class Triangle
         :scalene
       elsif @triangleside_1 == 0 || @triangleside_2 == 0 || @triangleside_3 == 0
         raise TriangleError
+        :scalene
       end
     end
     end
